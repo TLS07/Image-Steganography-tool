@@ -7,12 +7,16 @@ This project implements a simple image steganography tool that can hide a secret
 
 LSB steganography modifies the least significant bits of the image pixels to store secret data without noticeably altering the image visually.
 
-Features
+💡Features
 
 ->Encode a secret .txt file into a .bmp image.
+
 ->Decode a stego .bmp image to retrieve the hidden file.
+
 ->Supports optional output file names.
+
 ->Validates file types and image capacity before encoding.
+
 ->Automatically handles BMP header and preserves image data.
 
 Functionality / Workflow
