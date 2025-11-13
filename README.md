@@ -19,33 +19,35 @@ LSB steganography modifies the least significant bits of the image pixels to sto
 
 ->Automatically handles BMP header and preserves image data.
 
-Functionality / Workflow
-Encoding
 
-Open files – source image, secret file, and stego output image.
+⚒️Functionality / Workflow
 
-Check capacity – ensures the image has enough space for secret data.
+⭐Encoding
+->Open files – source image, secret file, and stego output image.
 
-Copy BMP header – preserve image metadata.
+->Check capacity – ensures the image has enough space for secret data.
 
-Encode data –
+->Copy BMP header – preserve image metadata.
 
-Magic string (#*) for identification
+->Encode data 
 
-Secret file extension and size
+->Magic string (#*) for identification
 
-Secret file content bit-by-bit into image LSBs
+->Secret file extension and size
 
-Copy remaining image data – ensures image integrity.
+->Secret file content bit-by-bit into image LSBs
 
-Decoding
+->Copy remaining image data – ensures image integrity.
 
-Open stego image.
 
-Validate magic string – ensures image contains hidden data.
+⭐Decoding
 
-Decode secret file metadata – extension and size.
+->Open stego image.
 
-Decode secret file data – reconstruct the original file.
+->Validate magic string – ensures image contains hidden data.
 
-Close files – release resources.
+->Decode secret file metadata – extension and size.
+
+->Decode secret file data – reconstruct the original file.
+
+->Close files – release resources.
