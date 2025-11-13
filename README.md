@@ -1,7 +1,7 @@
 # Image-Steganography-tool
 Developed an image steganography tool that can encode a text file into a .bmp image and later decode it to retrieve the original text into a .txt file.
 
-Project Overview
+📁Project Overview
 
 This project implements a simple image steganography tool that can hide a secret text file inside a BMP image using the Least Significant Bit (LSB) technique. The tool can also retrieve the hidden text from the image.
 
@@ -9,15 +9,11 @@ LSB steganography modifies the least significant bits of the image pixels to sto
 
 Features
 
-Encode a secret .txt file into a .bmp image.
-
-Decode a stego .bmp image to retrieve the hidden file.
-
-Supports optional output file names.
-
-Validates file types and image capacity before encoding.
-
-Automatically handles BMP header and preserves image data.
+->Encode a secret .txt file into a .bmp image.
+->Decode a stego .bmp image to retrieve the hidden file.
+->Supports optional output file names.
+->Validates file types and image capacity before encoding.
+->Automatically handles BMP header and preserves image data.
 
 Functionality / Workflow
 Encoding
